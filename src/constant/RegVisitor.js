@@ -1,0 +1,1 @@
+export const SUBMIT_VISITOR = 'SUBMIT_VISITOR';

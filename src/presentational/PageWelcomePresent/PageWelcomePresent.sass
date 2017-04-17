@@ -1,0 +1,81 @@
+.page-welcome
+  h3
+    font-size: 20px
+    padding-left: 20px
+    padding-bottom: 12px
+  h5
+    background-color: #44647d
+    color: #74ffc1
+    font-weight: 600
+    border-bottom: 1px solid silver
+    margin: 0
+    padding: 10px 10px 10px
+    font-size: 16px
+  &__container
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px
+    margin: 0px 10px
+    border-radius: 5px
+
+    background-color: white
+    display: flex
+    flex-flow: row
+    div:last-child
+      position: relative
+      flex-grow: 1
+      &:before
+        width: 1px
+        content: ''
+        height: 80%
+        background-color: #44647d
+        left: -8px
+        top: 66px
+        position: absolute
+    .img-scrolling
+      overflow-y: scroll
+      height: 400px
+  input,textarea,button
+    display: block
+  input,textarea
+    width: 400px
+    max-width: 400px
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px
+    padding: 7px
+    border-radius: 3px
+    border: 1px solid silver
+    margin-bottom: 10px
+  button
+    margin-top: 20px
+  img
+    margin: 18px
+    width: 250px
+    transition: all .1s ease
+    box-shadow: 0px 1px 6px silver, 0px 1px 4px silver
+    border-radius: 3px
+    &:hover
+      cursor: pointer
+    &:focus
+      box-shadow: 0px 8px 25px -3px
+  p
+    padding: 0
+    margin: 5px 0px
+    font-weight: 600
+  form
+    margin: 20px 30px
+  &__next
+    position: relative
+    img
+      width: 532px
+    p:first-child
+      margin-bottom: 50px
+    ul
+      background-color: #ffff8f
+      overflow: hidden
+      border: 1px solid silver
+      box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px
+      border-radius: 3px
+      z-index: 2
+      position: absolute
+      top: 95px
+      padding: 0px 5px
+      &:hover
+        cursor: pointer

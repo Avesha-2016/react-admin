@@ -1,0 +1,40 @@
+@import './src/css/_variable'
+
+.top-pannel
+  display: flex
+  justify-content: space-around
+  background: lighten(yellow, 28%)
+  box-shadow: 0px 2px 5px black
+  color: #555
+  margin: 5px 5px 5px 0px
+  padding-bottom: 28px
+  border-radius: 2px
+  div
+    line-height: 10px
+    i
+      font-size: 40px
+      padding-right: 15px
+      float: left
+      margin-top: 25px
+      color: teal
+      cursor: pointer
+      transition: all .3s ease
+      &:hover
+        color: lighten(teal, 8%)
+        transform: scale(1.05)
+    h3
+      display: inline-block
+
+      text-transform: uppercase
+      border-bottom: 1px solid #999
+      font-size: 20px
+    span
+      display: block
+      font-size: 18px
+    strong
+      color: darkred
+  .top-pannel__users
+    input
+      position: absolute
+      right: 17px
+      top: 25px

@@ -1,0 +1,72 @@
+.navigations-pannel
+  a
+    color: #606876
+    padding: 22px
+    display: block
+    transition: all .5s ease
+    &:hover
+      color: lighten(yellow, 20%)
+    &:focus
+  li
+    border-bottom: 1px solid lighten(#191e27, 5%)
+    text-transform: uppercase
+    font-weight: 600
+    cursor: pointer
+    position: relative
+    transition: all .3s cubic-bezier(1, 0, .58, .5)
+    overflow: hidden
+    li
+      font-size: 14px
+      padding-left: 45px
+      text-transform: none
+      border: none
+      a
+        padding: 0
+        transition: all .4s ease
+        padding-top: 3px
+        &:hover
+          color: lighten(yellow, 20%)
+    i
+      color: lighten(yellow, 20%)
+      padding-right: 10px
+    &:hover
+      background-color: #151920
+      &:before
+        position: absolute
+        content: ''
+        width: 2px
+        height: 100%
+        background-color: #00d0ee
+        top: 0
+        left: 0
+
+// triangle
+.triangleOne,
+  &:after
+    position: absolute
+    content: ''
+    width: 0
+    height: 0
+    background-color: #00d0ee
+    top: 30px
+    right: 20px
+    border-top: 7px solid lighten(yellow, 20%)
+    border-bottom: 7px solid #191e27
+    border-right: 7px solid #191e27
+    border-left: 7px solid #191e27
+    transition: all .3s ease
+.triangleTwo
+  &:after
+    position: absolute
+    content: ''
+    width: 0
+    height: 0
+    background-color: #00d0ee
+    top: 24px
+    right: 20px
+    border-top: 7px solid lighten(yellow, 20%)
+    border-bottom: 7px solid #191e27
+    border-right: 7px solid #191e27
+    border-left: 7px solid #191e27
+    transition: all .5s ease
+    transform: rotate(-180deg)

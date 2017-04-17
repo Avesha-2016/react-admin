@@ -1,0 +1,35 @@
+.registrations_account
+  .account_pannel
+    display: flex
+    margin-top: 30px
+    margin-left: 40px
+    i
+      font-size: 70px
+      margin: 10px
+      margin-right: 50px
+    li
+      border-bottom: 1px solid #999
+      margin: 5px
+      padding: 7px
+    ul
+      float: left
+      margin-right: 40px
+      font-weight: 600
+      &:nth-child(2) li
+        color: darken(teal, 10)
+        font-weight: 600
+    &__input_replace
+      transition: all .3s ease
+      input
+        display: block
+        border-top: none
+        border-left: 1px solid
+        border-bottom: 1px solid
+        padding: 10px
+        margin-top: 9px
+  .mui-btn_green
+    background-color: lighten(green, 7%)
+    color: white
+  button
+    margin: 20px auto
+    display: block
